@@ -1,0 +1,53 @@
+/* Archivo de cascada de estilos  */
+
+
+/* Importo tipografía Oswald de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+body{
+    background-color: rgb(238, 252, 255);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    width: 80%;
+    max-width: 700px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+
+h1{
+    font-size: 48px;
+    color: rgb(70, 116, 143);
+}
+
+h2{
+  font-size: 48px;
+  color: rgb(48, 76, 134);
+  
+}
+
+h3{
+  font-size: 24px;
+  color: rgb(48, 76, 134);
+}
+
+p{
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  
+ 
+}
+footer{
+  background-color: rgb(197, 223, 224);
+  color: rgb(197, 223, 224);
+  padding: 3em; /* EM square */
+  margin-top: 10em;
+}
+
+footer a{
+  color: rgb(197, 223, 224);
+  font-weight: bolder;
+  text-decoration: underline;
+  cursor: crosshair;
+}
